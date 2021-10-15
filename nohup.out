@@ -1,0 +1,9 @@
+/home/bobo/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0/openssl/buffering.rb:125:in `sysread': Connection reset by peer (Errno::ECONNRESET)
+	from /home/bobo/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0/openssl/buffering.rb:125:in `readpartial'
+	from /home/bobo/.rvm/gems/ruby-2.7.4/gems/twitter-7.0.0/lib/twitter/streaming/connection.rb:25:in `block in stream'
+	from /home/bobo/.rvm/gems/ruby-2.7.4/gems/twitter-7.0.0/lib/twitter/streaming/connection.rb:21:in `loop'
+	from /home/bobo/.rvm/gems/ruby-2.7.4/gems/twitter-7.0.0/lib/twitter/streaming/connection.rb:21:in `stream'
+	from /home/bobo/.rvm/gems/ruby-2.7.4/gems/twitter-7.0.0/lib/twitter/streaming/client.rb:123:in `request'
+	from /home/bobo/.rvm/gems/ruby-2.7.4/gems/twitter-7.0.0/lib/twitter/streaming/client.rb:38:in `filter'
+	from lib/twitter_bot.rb:95:in `streaming_fav_and_follow'
+	from lib/twitter_bot.rb:104:in `<main>'
